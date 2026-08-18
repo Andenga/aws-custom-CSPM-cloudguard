@@ -1,1 +1,1 @@
-RSA Factoring challenge
+The tell that separates this from a beginner project is whether you wrote the detection logic yourself versus running Prowler/ScoutSuite and screenshotting output. A beginner runs a scanner. An engineer explains why a rule exists, what it misses, and where it false-positives (e.g., an IAM policy with s3:* scoped to one bucket looks scary in a naive scanner but isn't actually a risk — showing you know that distinction is the signal). Publish the reasoning, not just the findings.
